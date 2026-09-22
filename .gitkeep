@@ -1,0 +1,2 @@
+# Submissions root. Each task lives under <task-id>/.
+# Branch/tag convention: submit/<task-id>/<run-id>
