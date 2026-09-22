@@ -1,0 +1,11 @@
+{
+  "arm": "A",
+  "chain": "winwincode-product:compose_multiround_with_evidence",
+  "investigations": 0,
+  "runId": "run-20260922-A005",
+  "scoreHint": 57,
+  "seats": [
+    "glm"
+  ],
+  "taskId": "task.md"
+}
