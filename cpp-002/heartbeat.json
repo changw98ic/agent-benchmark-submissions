@@ -1,0 +1,9 @@
+{
+  "jobId": "cpp-002-B-run-20260923-R003",
+  "phase": "finished",
+  "detail": "source hygiene rejected",
+  "beatCount": 16,
+  "unixMs": 1790135418983,
+  "wallClockMs": 63950,
+  "status": "FAILED"
+}

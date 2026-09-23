@@ -1,0 +1,34 @@
+{
+  "taskId": "cpp-002",
+  "arm": "B",
+  "runId": "run-20260923-R003",
+  "entry": "main.cpp",
+  "chain": "winwincode-product:fusion_coding_chain",
+  "fusion": false,
+  "jev": {
+    "enabled": true,
+    "source": "arm-B"
+  },
+  "jevMemory": {
+    "enabled": true,
+    "source": "arm-B"
+  },
+  "seats": [],
+  "selectionScore": null,
+  "selectionScoreNote": "heuristic to pick one product answer (defs*10+bytes/100); NOT judge score",
+  "error": {
+    "kind": "run_failed",
+    "message": "pre-submit check failed: extracted source looks truncated/prose\n",
+    "exitCode": 5,
+    "attempts": 1
+  },
+  "timing": {
+    "wallClockMs": 63960,
+    "startedAtUnixMs": 1790135355025,
+    "endedAtUnixMs": 1790135418985,
+    "hardKillTimeoutSec": 240
+  },
+  "scoreHint": null,
+  "timeout": false,
+  "productExit": 5
+}
