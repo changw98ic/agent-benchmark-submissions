@@ -2,8 +2,8 @@
   "jobId": "bun-001-C-run-20260923-R003",
   "phase": "finished",
   "detail": "source hygiene rejected",
-  "beatCount": 51,
-  "unixMs": 1790135631997,
-  "wallClockMs": 239115,
+  "beatCount": 68,
+  "unixMs": 1790137208786,
+  "wallClockMs": 321735,
   "status": "FAILED"
 }

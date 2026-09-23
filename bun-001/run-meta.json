@@ -24,12 +24,12 @@
     "kind": "run_failed",
     "message": "pre-submit check failed: extracted source looks truncated/prose\n",
     "exitCode": 5,
-    "attempts": 1
+    "attempts": 3
   },
   "timing": {
-    "wallClockMs": 239123,
-    "startedAtUnixMs": 1790135392876,
-    "endedAtUnixMs": 1790135631999,
+    "wallClockMs": 321743,
+    "startedAtUnixMs": 1790136887044,
+    "endedAtUnixMs": 1790137208787,
     "hardKillTimeoutSec": 360
   },
   "scoreHint": null,
