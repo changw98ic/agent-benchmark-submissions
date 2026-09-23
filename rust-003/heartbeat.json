@@ -1,0 +1,9 @@
+{
+  "jobId": "rust-003-A-run-20260923-R001",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 16,
+  "unixMs": 1790128585233,
+  "wallClockMs": 65030,
+  "status": "ALIVE"
+}
