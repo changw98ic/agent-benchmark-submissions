@@ -1,0 +1,9 @@
+{
+  "jobId": "dotnet-002-A-run-20260923-R001",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 14,
+  "unixMs": 1790128663704,
+  "wallClockMs": 55033,
+  "status": "ALIVE"
+}
