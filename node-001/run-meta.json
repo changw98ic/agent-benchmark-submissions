@@ -1,0 +1,30 @@
+{
+  "taskId": "node-001",
+  "arm": "C",
+  "runId": "run-20260923-R001",
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "seats": [],
+  "investigations": 0,
+  "selectionScore": null,
+  "selectionScoreNote": "heuristic to pick one product answer (defs*10+bytes/100); NOT judge score",
+  "jev": {
+    "enabled": false,
+    "note": "arm A/C: JEV off (baseline). Role still reserved per ADR-0035/0037/0038."
+  },
+  "error": {
+    "kind": "run_failed",
+    "message": "=== WinWinCode product coding chain ===\ntask=/Volumes/ORICO/winwincode/fusion-benchmark-tasks/agent-benchmark-tasks/tasks/node-001/task.md\nworkdir=/tmp/node-001-armC arm=C run=run-20260923-R001\nseats_available=3\nrunning product chain (fusion=true, arm=C)...\n",
+    "exitCode": -15,
+    "attempts": 1,
+    "missingClaims": false
+  },
+  "timing": {
+    "wallClockMs": 42480,
+    "seatElapsedMsHint": 0,
+    "startedAtUnixMs": 1790135056064,
+    "endedAtUnixMs": 1790135098544
+  },
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  }
+}
