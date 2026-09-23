@@ -1,0 +1,9 @@
+{
+  "jobId": "node-002-D-run-20260923-R001",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 51,
+  "unixMs": 1790133787730,
+  "wallClockMs": 240359,
+  "status": "ALIVE"
+}
