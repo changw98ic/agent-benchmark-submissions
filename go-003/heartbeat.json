@@ -1,0 +1,9 @@
+{
+  "jobId": "go-003-D-run-20260923-R003",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 50,
+  "unixMs": 1790137783944,
+  "wallClockMs": 235342,
+  "status": "ALIVE"
+}
