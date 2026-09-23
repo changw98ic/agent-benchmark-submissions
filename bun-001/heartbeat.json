@@ -3,7 +3,7 @@
   "phase": "finished",
   "detail": "source hygiene rejected",
   "beatCount": 15,
-  "unixMs": 1790135451106,
-  "wallClockMs": 58225,
+  "unixMs": 1790136499363,
+  "wallClockMs": 56075,
   "status": "FAILED"
 }
