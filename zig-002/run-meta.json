@@ -36,9 +36,9 @@
     }
   },
   "timing": {
-    "startedAtUnixMs": 1790135816963,
-    "endedAtUnixMs": 1790136176970,
-    "wallClockMs": 360007,
+    "startedAtUnixMs": 1790136838331,
+    "endedAtUnixMs": 1790137198340,
+    "wallClockMs": 360009,
     "hardKillTimeoutSec": 360
   },
   "scoreHint": null,
