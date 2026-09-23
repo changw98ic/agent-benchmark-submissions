@@ -1,13 +1,16 @@
 {
-  "taskId": "bun-001",
   "arm": "D",
   "runId": "run-20260923-R003",
+  "taskId": "bun-001",
   "entry": "main.ts",
-  "status": "ERROR",
+  "status": "TIMEOUT",
+  "errorKind": "HARD_KILL_TIMEOUT",
+  "error": "fusion-coding-chain hard-killed at 360s; product did not write entry/run-meta",
   "fusion": true,
   "jev": {
     "enabled": true,
-    "source": "arm-D"
+    "source": "arm-D",
+    "note": ""
   },
   "jevMemory": {
     "enabled": true,
@@ -17,23 +20,30 @@
         "num": null,
         "den": null
       },
-      "note": "unavailable: product failed before run-meta write"
+      "confirmedClaimRecall": {
+        "num": null,
+        "den": null
+      },
+      "verifiedEvidenceRecall": {
+        "num": null,
+        "den": null
+      },
+      "evidenceBindingErrors": null,
+      "stateRegressions": null,
+      "hallucinatedStates": null,
+      "staleRefutedInActive": null,
+      "note": "unavailable: product hard-killed before run-meta write"
     }
   },
-  "error": {
-    "kind": "run_failed",
-    "message": "pre-submit check failed: extracted source looks truncated/prose\n",
-    "exitCode": 5,
-    "attempts": 1
-  },
   "timing": {
-    "wallClockMs": 241354,
-    "startedAtUnixMs": 1790135439753,
-    "endedAtUnixMs": 1790135681107,
+    "startedAtUnixMs": 1790136483372,
+    "endedAtUnixMs": 1790136843380,
+    "wallClockMs": 360008,
     "hardKillTimeoutSec": 360
   },
   "scoreHint": null,
+  "seats": null,
   "chain": "winwincode-product:fusion_coding_chain",
-  "timeout": false,
-  "productExit": 5
+  "timeout": true,
+  "productExit": 124
 }
