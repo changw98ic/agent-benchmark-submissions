@@ -1,0 +1,149 @@
+{
+  "arm": "D",
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  },
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "investigations": 0,
+  "jev": {
+    "cannot": [
+      "override tool/verified facts",
+      "see vote counts or model brand names",
+      "REFUTED without verified counter-evidence",
+      "mutate Canonical State semantics"
+    ],
+    "enabled": true,
+    "roles": [
+      "context: L2 Active build + L3 Archive (ADR-0038)",
+      "rebuildGate: deterministic integrity (pinned constraints/claims/evidence)",
+      "adjudication: evidence-only verifier after investigation (ADR-0037 R4)"
+    ]
+  },
+  "jevMemory": {
+    "compression": {
+      "afterTokens": 3848,
+      "beforeTokens": 3808,
+      "compressionRatio": 1.0105042016806722,
+      "netTokenSaving": -40
+    },
+    "enabled": true,
+    "integrity": {
+      "confirmedClaimRecall": {
+        "den": 0,
+        "num": 0
+      },
+      "constraintRecall": {
+        "den": 3,
+        "num": 3
+      },
+      "evidenceBindingErrors": 0,
+      "hallucinatedStates": 0,
+      "staleRefutedInActive": 0,
+      "stateRegressions": 0,
+      "verifiedEvidenceRecall": {
+        "den": 0,
+        "num": 0
+      }
+    },
+    "layers": {
+      "L1Canonical": {
+        "confirmedClaims": 0,
+        "disputedClaims": 0,
+        "hardConstraints": 3,
+        "refutedClaims": 0,
+        "verifiedEvidence": 0
+      },
+      "L2Active": {
+        "codeSnippets": 1,
+        "evidenceFacts": 2,
+        "pinnedConstraints": [
+          "Python stdlib only",
+          "entry main.py",
+          "no runtime network"
+        ],
+        "priorityClaims": [],
+        "recentObservations": 1
+      },
+      "L3Archive": {
+        "entries": 2,
+        "kinds": [
+          "raw_tool_output",
+          "failed_path"
+        ]
+      }
+    },
+    "memoryTypes": {
+      "episodic": {
+        "events": 2
+      },
+      "semantic": {
+        "claims": 1,
+        "superseded": 0
+      },
+      "working": {
+        "active": [],
+        "droppedCandidates": [
+          "duplicate reasoning",
+          "raw seat JSON",
+          "parse retries"
+        ],
+        "pinned": [
+          "implement python-001 JSONL log filter",
+          "JSONL parse per physical line",
+          "filters start/end/levels/keyword",
+          "output read/valid/bad_lines/matched_lines/errors",
+          "Python stdlib only",
+          "entry main.py",
+          "no runtime network",
+          "normalize coding answer \u2192 compose \u2192 write main.py"
+        ]
+      }
+    },
+    "policy": {
+      "compressFirst": [
+        "duplicate reasoning",
+        "old tool output",
+        "failed parse paths",
+        "raw transcripts"
+      ],
+      "pinned": [
+        "objective",
+        "acceptance",
+        "hard constraints",
+        "confirmed/refuted/disputed claims",
+        "verified evidence",
+        "high-risk claims"
+      ]
+    },
+    "postRebuildTaskContinued": true,
+    "rebuilds": {
+      "count": 1,
+      "fallbackToPrevious": 0,
+      "integrityFail": 0,
+      "integrityPass": 1
+    },
+    "source": "arm-D"
+  },
+  "runId": "run-20260923-R004",
+  "seats": [
+    "glm",
+    "deepseek",
+    "opencode"
+  ],
+  "selectionScore": 36,
+  "selectionScoreNote": "heuristic to pick one product answer (defs*10+bytes/100); NOT judge score",
+  "selfCheck": {
+    "bytes": 3608,
+    "looksRealSource": true
+  },
+  "taskId": "node-001",
+  "timing": {
+    "endedAtUnixMs": 1790138001208,
+    "seatElapsedMsHint": 0,
+    "startedAtUnixMs": 1790137698464,
+    "wallClockMs": 302744
+  },
+  "timeout": false,
+  "productExit": 0,
+  "attempts": 1
+}
