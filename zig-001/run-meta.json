@@ -1,0 +1,49 @@
+{
+  "arm": "C",
+  "runId": "run-20260923-R003",
+  "taskId": "zig-001",
+  "entry": "main.zig",
+  "status": "TIMEOUT",
+  "errorKind": "HARD_KILL_TIMEOUT",
+  "error": "fusion-coding-chain hard-killed at 360s; product did not write entry/run-meta",
+  "fusion": true,
+  "jev": {
+    "enabled": false,
+    "source": "arm-C",
+    "note": "arm A/C: JEV off (baseline). Role still reserved per ADR-0035/0037/0038."
+  },
+  "jevMemory": {
+    "enabled": false,
+    "source": "arm-C",
+    "integrity": {
+      "constraintRecall": {
+        "num": null,
+        "den": null
+      },
+      "confirmedClaimRecall": {
+        "num": null,
+        "den": null
+      },
+      "verifiedEvidenceRecall": {
+        "num": null,
+        "den": null
+      },
+      "evidenceBindingErrors": null,
+      "stateRegressions": null,
+      "hallucinatedStates": null,
+      "staleRefutedInActive": null,
+      "note": "unavailable: product hard-killed before run-meta write"
+    }
+  },
+  "timing": {
+    "startedAtUnixMs": 1790135581439,
+    "endedAtUnixMs": 1790135941447,
+    "wallClockMs": 360008,
+    "hardKillTimeoutSec": 360
+  },
+  "scoreHint": null,
+  "seats": null,
+  "chain": "winwincode-product:fusion_coding_chain",
+  "timeout": true,
+  "productExit": 124
+}
