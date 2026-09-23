@@ -1,0 +1,9 @@
+{
+  "jobId": "bun-001-A-run-20260923-R003",
+  "phase": "finished",
+  "detail": "source hygiene rejected",
+  "beatCount": 12,
+  "unixMs": 1790135437055,
+  "wallClockMs": 44174,
+  "status": "FAILED"
+}

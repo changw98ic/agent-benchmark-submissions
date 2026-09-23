@@ -1,0 +1,39 @@
+{
+  "taskId": "bun-001",
+  "arm": "A",
+  "runId": "run-20260923-R003",
+  "entry": "main.ts",
+  "status": "ERROR",
+  "fusion": false,
+  "jev": {
+    "enabled": false,
+    "source": "arm-A"
+  },
+  "jevMemory": {
+    "enabled": false,
+    "source": "arm-A",
+    "integrity": {
+      "constraintRecall": {
+        "num": null,
+        "den": null
+      },
+      "note": "unavailable: product failed before run-meta write"
+    }
+  },
+  "error": {
+    "kind": "run_failed",
+    "message": "pre-submit check failed: extracted source looks truncated/prose\n",
+    "exitCode": 5,
+    "attempts": 1
+  },
+  "timing": {
+    "wallClockMs": 44183,
+    "startedAtUnixMs": 1790135392875,
+    "endedAtUnixMs": 1790135437058,
+    "hardKillTimeoutSec": 240
+  },
+  "scoreHint": null,
+  "chain": "winwincode-product:fusion_coding_chain",
+  "timeout": false,
+  "productExit": 5
+}
