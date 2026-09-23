@@ -1,0 +1,33 @@
+{
+  "taskId": "cpp-001",
+  "arm": "C",
+  "runId": "run-20260923-R003",
+  "entry": "main.cpp",
+  "chain": "winwincode-product:fusion_coding_chain",
+  "fusion": true,
+  "jev": {
+    "enabled": false,
+    "source": "arm-C"
+  },
+  "jevMemory": {
+    "enabled": false,
+    "source": "arm-C"
+  },
+  "seats": [],
+  "selectionScore": null,
+  "error": {
+    "kind": "hard_kill_timeout",
+    "message": "\nTIMEOUT after 360s",
+    "exitCode": 124,
+    "attempts": 2
+  },
+  "timing": {
+    "wallClockMs": 360009,
+    "startedAtUnixMs": 1790137345762,
+    "endedAtUnixMs": 1790137705771,
+    "hardKillTimeoutSec": 360
+  },
+  "scoreHint": null,
+  "timeout": true,
+  "productExit": 124
+}
