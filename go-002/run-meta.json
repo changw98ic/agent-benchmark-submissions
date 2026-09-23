@@ -1,0 +1,31 @@
+{
+  "arm": "D",
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  },
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "error": "fusion-coding-chain hard-killed at 240s; product did not write entry/run-meta",
+  "jev": {
+    "enabled": true,
+    "note": "arm A/C: JEV off (baseline). Role still reserved per ADR-0035/0037/0038."
+  },
+  "jevMemory": {
+    "enabled": true,
+    "source": "arm-D-R003-synthetic"
+  },
+  "runId": "run-20260923-R003",
+  "selectionScore": null,
+  "scoreHint": null,
+  "seats": [],
+  "status": "TIMEOUT",
+  "taskId": "go-002",
+  "timing": {
+    "endedAtUnixMs": 1790138056297,
+    "hardKillTimeoutSec": 240,
+    "startedAtUnixMs": 1790137816287,
+    "wallClockMs": 240010
+  },
+  "synthetic": true,
+  "exit": 124,
+  "attempts": 1
+}
