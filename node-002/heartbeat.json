@@ -1,0 +1,9 @@
+{
+  "jobId": "node-002-D-run-20260923-R003",
+  "phase": "finished",
+  "detail": "source hygiene rejected",
+  "beatCount": 68,
+  "unixMs": 1790137183853,
+  "wallClockMs": 323942,
+  "status": "FAILED"
+}
