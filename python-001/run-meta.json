@@ -1,0 +1,85 @@
+{
+  "taskId": "task.md",
+  "arm": "C",
+  "runId": "run-20260922-C010",
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "entry": "main.py",
+  "status": "REQUEST_ERROR",
+  "error": "fusion claim extraction failed for deepseek: answer is missing claims",
+  "errorKind": "claim_extraction_failed",
+  "seats": ["glm", "deepseek", "opencode"],
+  "seatsAvailable": 3,
+  "seatsExpected": 4,
+  "seatNote": "FUSION_SEAT_MIMO_API_KEY did not load; mimo seat dropped. fusion used 3 seats.",
+  "requestTimeoutSec": 180,
+  "investigations": 0,
+  "scoreHint": 0,
+  "jev": {
+    "enabled": false,
+    "note": "arm C: JEV off (baseline). Role still reserved per ADR-0035/0037/0038."
+  },
+  "jevMemory": {
+    "enabled": false,
+    "layers": {
+      "L1Canonical": {
+        "hardConstraints": 3,
+        "confirmedClaims": 0,
+        "refutedClaims": 0,
+        "disputedClaims": 0,
+        "verifiedEvidence": 0
+      },
+      "L2Active": {
+        "priorityClaims": [],
+        "pinnedConstraints": [],
+        "recentObservations": 0,
+        "evidenceFacts": 0,
+        "codeSnippets": 0
+      },
+      "L3Archive": {
+        "entries": 0,
+        "kinds": []
+      }
+    },
+    "rebuilds": {
+      "count": 0,
+      "integrityPass": 0,
+      "integrityFail": 0,
+      "fallbackToPrevious": 0
+    },
+    "integrity": {
+      "constraintRecall": {"num": 0, "den": 3},
+      "confirmedClaimRecall": {"num": 0, "den": 0},
+      "verifiedEvidenceRecall": {"num": 0, "den": 0},
+      "evidenceBindingErrors": 0,
+      "stateRegressions": 0,
+      "hallucinatedStates": 0,
+      "staleRefutedInActive": 0
+    },
+    "compression": {
+      "beforeTokens": 0,
+      "afterTokens": 0,
+      "compressionRatio": null,
+      "netTokenSaving": null
+    },
+    "memoryTypes": {
+      "working": {"pinned": [], "active": [], "droppedCandidates": []},
+      "episodic": {"events": 0},
+      "semantic": {"claims": 0, "superseded": 0}
+    },
+    "postRebuildTaskContinued": null,
+    "integritySummary": "not reached — compose failed before jevMemory pass (arm C JEV off)"
+  },
+  "timing": {
+    "wallClockMs": 573000,
+    "seatElapsedMsHint": 573000,
+    "startedAtUnixMs": 1790126192000,
+    "endedAtUnixMs": 1790126765000
+  },
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  },
+  "artifacts": {
+    "mainPy": null,
+    "note": "product chain exited 3 before writing main.py"
+  }
+}
