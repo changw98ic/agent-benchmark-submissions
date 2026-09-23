@@ -1,0 +1,9 @@
+{
+  "jobId": "zig-001-A-run-20260923-R003",
+  "phase": "finished",
+  "detail": "solution written; ready to push",
+  "beatCount": 16,
+  "unixMs": 1790135515536,
+  "wallClockMs": 61812,
+  "status": "FINISHED"
+}
