@@ -1,0 +1,101 @@
+{
+  "arm": "C",
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  },
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "investigations": 0,
+  "jev": {
+    "enabled": false,
+    "note": "arm A/C: JEV off (baseline). Role still reserved per ADR-0035/0037/0038."
+  },
+  "jevMemory": {
+    "compression": {
+      "afterTokens": 0,
+      "beforeTokens": 0,
+      "compressionRatio": null,
+      "netTokenSaving": null
+    },
+    "enabled": false,
+    "integrity": {
+      "confirmedClaimRecall": {
+        "den": 0,
+        "num": 0
+      },
+      "constraintRecall": {
+        "den": 3,
+        "num": 0
+      },
+      "evidenceBindingErrors": 0,
+      "hallucinatedStates": 0,
+      "staleRefutedInActive": 0,
+      "stateRegressions": 0,
+      "verifiedEvidenceRecall": {
+        "den": 0,
+        "num": 0
+      }
+    },
+    "layers": {
+      "L1Canonical": {
+        "confirmedClaims": 0,
+        "disputedClaims": 0,
+        "hardConstraints": 3,
+        "refutedClaims": 0,
+        "verifiedEvidence": 0
+      },
+      "L2Active": {
+        "pinnedConstraints": [],
+        "priorityClaims": [],
+        "recentObservations": 0
+      },
+      "L3Archive": {
+        "entries": 0,
+        "kinds": []
+      }
+    },
+    "memoryTypes": {
+      "episodic": {
+        "events": 0
+      },
+      "semantic": {
+        "claims": 0,
+        "superseded": 0
+      },
+      "working": {
+        "active": [],
+        "droppedCandidates": [],
+        "pinned": []
+      }
+    },
+    "postRebuildTaskContinued": null,
+    "rebuilds": {
+      "count": 0,
+      "fallbackToPrevious": 0,
+      "integrityFail": 0,
+      "integrityPass": 0
+    }
+  },
+  "runId": "run-20260923-R003",
+  "seats": [
+    "glm",
+    "deepseek",
+    "opencode"
+  ],
+  "selectionScore": 83,
+  "selectionScoreNote": "heuristic to pick one product answer (defs*10+bytes/100); NOT judge score",
+  "selfCheck": {
+    "bytes": 4378,
+    "looksRealSource": true,
+    "pythonCompile": true
+  },
+  "taskId": "python-001",
+  "timing": {
+    "endedAtUnixMs": 1790135635086,
+    "seatElapsedMsHint": 0,
+    "startedAtUnixMs": 1790135299687,
+    "wallClockMs": 335399
+  },
+  "timeout": false,
+  "productExit": 0,
+  "attempts": 1
+}
