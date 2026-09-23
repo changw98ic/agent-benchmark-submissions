@@ -1,0 +1,9 @@
+{
+  "jobId": "dotnet-002-B-run-20260923-R003",
+  "phase": "finished",
+  "detail": "source hygiene rejected",
+  "beatCount": 16,
+  "unixMs": 1790136067415,
+  "wallClockMs": 60445,
+  "status": "FAILED"
+}
