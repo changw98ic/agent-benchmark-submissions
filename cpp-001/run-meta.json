@@ -1,0 +1,30 @@
+{
+  "taskId": "cpp-001",
+  "arm": "D",
+  "runId": "run-20260923-R003",
+  "entry": "main.cpp",
+  "status": "TIMEOUT",
+  "errorKind": "HARD_KILL_TIMEOUT",
+  "error": "fusion-coding-chain hard-killed at 360s; product did not write entry/run-meta (retry also timed out; workdir wiped on retry)",
+  "fusion": true,
+  "jev": {
+    "enabled": true,
+    "source": "arm-D"
+  },
+  "jevMemory": {
+    "enabled": true,
+    "source": "arm-D"
+  },
+  "timing": {
+    "startedAtUnixMs": 1790138085362,
+    "endedAtUnixMs": 1790138445368,
+    "wallClockMs": 360006,
+    "hardKillTimeoutSec": 360
+  },
+  "scoreHint": null,
+  "seats": null,
+  "timeout": true,
+  "productExit": 124,
+  "attempts": 1,
+  "chain": "winwincode-product:fusion_coding_chain"
+}
