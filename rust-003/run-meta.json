@@ -1,0 +1,48 @@
+{
+  "arm": "D",
+  "runId": "run-20260923-R001",
+  "taskId": "rust-003",
+  "entry": "main.rs",
+  "status": "TIMEOUT",
+  "errorKind": "HARD_KILL_TIMEOUT",
+  "error": "fusion-coding-chain hard-killed at 360s; product did not write entry/run-meta",
+  "fusion": true,
+  "jev": {
+    "enabled": true,
+    "source": "arm-D"
+  },
+  "jevMemory": {
+    "enabled": true,
+    "source": "arm-D",
+    "integrity": {
+      "constraintRecall": {
+        "num": null,
+        "den": null
+      },
+      "confirmedClaimRecall": {
+        "num": null,
+        "den": null
+      },
+      "verifiedEvidenceRecall": {
+        "num": null,
+        "den": null
+      },
+      "evidenceBindingErrors": null,
+      "stateRegressions": null,
+      "hallucinatedStates": null,
+      "staleRefutedInActive": null,
+      "note": "unavailable: product hard-killed before run-meta write"
+    }
+  },
+  "timing": {
+    "startedAtUnixMs": 1790133575152,
+    "endedAtUnixMs": 1790133824620,
+    "wallClockMs": 249468,
+    "hardKillTimeoutSec": 360
+  },
+  "scoreHint": null,
+  "seats": null,
+  "seatsAvailableObservedAtStart": 3,
+  "chain": "winwincode-product:fusion_coding_chain",
+  "timeout": true
+}
