@@ -1,0 +1,9 @@
+{
+  "jobId": "python-003-D-run-20260923-R001",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 50,
+  "unixMs": 1790133803104,
+  "wallClockMs": 235340,
+  "status": "ALIVE"
+}
