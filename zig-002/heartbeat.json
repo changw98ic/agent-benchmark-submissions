@@ -1,0 +1,9 @@
+{
+  "jobId": "zig-002-C-run-20260923-R003",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 74,
+  "unixMs": 1790136172454,
+  "wallClockMs": 355485,
+  "status": "ALIVE"
+}
