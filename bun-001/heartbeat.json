@@ -1,0 +1,9 @@
+{
+  "jobId": "bun-001-C-run-20260923-R004",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 74,
+  "unixMs": 1790146443345,
+  "wallClockMs": 355511,
+  "status": "ALIVE"
+}
