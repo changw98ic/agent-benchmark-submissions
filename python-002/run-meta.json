@@ -1,0 +1,39 @@
+{
+  "taskId": "python-002",
+  "arm": "B",
+  "runId": "run-20260923-R003",
+  "entry": "main.py",
+  "status": "ERROR",
+  "fusion": false,
+  "jev": {
+    "enabled": true,
+    "source": "arm-B"
+  },
+  "jevMemory": {
+    "enabled": true,
+    "source": "arm-B",
+    "integrity": {
+      "constraintRecall": {
+        "num": null,
+        "den": null
+      },
+      "note": "unavailable: product failed before run-meta write"
+    }
+  },
+  "error": {
+    "kind": "run_failed",
+    "message": "\nthread 'main' (98410658) panicked at crates/fusion-live-panel/src/bin/../seat_http.rs:187:33:\nstart byte index 55079 is not a char boundary; it is inside '\u96f6' (bytes 55077..55080) of `We need answer final only JSON with files main.py content and notes <=40 words. Need implement task. Need think carefully. We need provide full source. Need understand protocol. Likely JSONL adapter: reads stdin lines, for each line JSON request parse, out`[...]\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace\n",
+    "exitCode": 101,
+    "attempts": 2
+  },
+  "timing": {
+    "wallClockMs": 64214,
+    "startedAtUnixMs": 1790136957749,
+    "endedAtUnixMs": 1790137021963,
+    "hardKillTimeoutSec": 240
+  },
+  "scoreHint": null,
+  "chain": "winwincode-product:fusion_coding_chain",
+  "timeout": false,
+  "productExit": 101
+}
