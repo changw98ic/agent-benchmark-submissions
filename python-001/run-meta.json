@@ -1,0 +1,108 @@
+{
+  "taskId": "task.md",
+  "arm": "D",
+  "runId": "run-20260922-D010",
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "entry": "main.py",
+  "status": "REQUEST_ERROR",
+  "error": "timeout: product chain hung past 10min guard and was killed",
+  "errorKind": "timeout",
+  "seats": ["glm", "deepseek", "opencode"],
+  "seatsAvailable": 3,
+  "seatsExpected": 4,
+  "seatNote": "FUSION_SEAT_MIMO_API_KEY did not load; mimo seat dropped. fusion used 3 seats.",
+  "requestTimeoutSec": 180,
+  "investigations": 0,
+  "scoreHint": 0,
+  "jev": {
+    "enabled": true,
+    "roles": [
+      "context: L2 Active build + L3 Archive (ADR-0038)",
+      "rebuildGate: deterministic integrity (pinned constraints/claims/evidence)",
+      "adjudication: evidence-only verifier after investigation (ADR-0037 R4)"
+    ],
+    "cannot": [
+      "override tool/verified facts",
+      "see vote counts or model brand names",
+      "REFUTED without verified counter-evidence",
+      "mutate Canonical State semantics"
+    ]
+  },
+  "jevMemory": {
+    "enabled": true,
+    "layers": {
+      "L1Canonical": {
+        "hardConstraints": 3,
+        "confirmedClaims": 0,
+        "refutedClaims": 0,
+        "disputedClaims": 0,
+        "verifiedEvidence": 0
+      },
+      "L2Active": {
+        "priorityClaims": [],
+        "pinnedConstraints": [
+          "Python stdlib only",
+          "entry main.py",
+          "no runtime network"
+        ],
+        "recentObservations": 0,
+        "evidenceFacts": 0,
+        "codeSnippets": 0
+      },
+      "L3Archive": {
+        "entries": 0,
+        "kinds": []
+      }
+    },
+    "rebuilds": {
+      "count": 0,
+      "integrityPass": 0,
+      "integrityFail": 0,
+      "fallbackToPrevious": 0
+    },
+    "integrity": {
+      "constraintRecall": {"num": 3, "den": 3},
+      "confirmedClaimRecall": {"num": 0, "den": 0},
+      "verifiedEvidenceRecall": {"num": 0, "den": 0},
+      "evidenceBindingErrors": 0,
+      "stateRegressions": 0,
+      "hallucinatedStates": 0,
+      "staleRefutedInActive": 0
+    },
+    "compression": {
+      "beforeTokens": 0,
+      "afterTokens": 0,
+      "compressionRatio": null,
+      "netTokenSaving": null
+    },
+    "memoryTypes": {
+      "working": {
+        "pinned": [
+          "implement python-001 JSONL log filter",
+          "Python stdlib only",
+          "entry main.py",
+          "no runtime network"
+        ],
+        "active": [],
+        "droppedCandidates": []
+      },
+      "episodic": {"events": 0},
+      "semantic": {"claims": 0, "superseded": 0}
+    },
+    "postRebuildTaskContinued": null,
+    "integritySummary": "pinned hard constraints 3/3 retained in L2Active; rebuild gate never reached (timeout before compose complete); no evidence binding / state regression / hallucinated states observed"
+  },
+  "timing": {
+    "wallClockMs": 638000,
+    "seatElapsedMsHint": 638000,
+    "startedAtUnixMs": 1790126833000,
+    "endedAtUnixMs": 1790127471000
+  },
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  },
+  "artifacts": {
+    "mainPy": null,
+    "note": "product chain hung in compose; killed by 10min guard before writing main.py"
+  }
+}
