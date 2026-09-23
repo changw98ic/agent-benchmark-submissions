@@ -1,0 +1,30 @@
+{
+  "taskId": "python-001",
+  "arm": "C",
+  "runId": "run-20260923-R001",
+  "chain": "winwincode-product:compose_multiround_with_evidence|compose_independent_answers",
+  "seats": [],
+  "investigations": 0,
+  "selectionScore": null,
+  "selectionScoreNote": "heuristic to pick one product answer (defs*10+bytes/100); NOT judge score",
+  "jev": {
+    "enabled": false,
+    "note": "arm A/C: JEV off (baseline). Role still reserved per ADR-0035/0037/0038."
+  },
+  "error": {
+    "kind": "run_failed",
+    "message": "\nTIMEOUT after 360s",
+    "exitCode": 124,
+    "attempts": 1,
+    "missingClaims": false
+  },
+  "timing": {
+    "wallClockMs": 360007,
+    "seatElapsedMsHint": 0,
+    "startedAtUnixMs": 1790133690444,
+    "endedAtUnixMs": 1790134050451
+  },
+  "budget": {
+    "note": "20M token cap per task protocol; token accounting external to this host"
+  }
+}
