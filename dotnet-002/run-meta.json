@@ -1,0 +1,34 @@
+{
+  "taskId": "dotnet-002",
+  "arm": "D",
+  "runId": "run-20260923-R003",
+  "entry": "Program.cs",
+  "chain": "winwincode-product:fusion_coding_chain",
+  "fusion": true,
+  "jev": {
+    "enabled": true,
+    "source": "arm-D"
+  },
+  "jevMemory": {
+    "enabled": true,
+    "source": "arm-D"
+  },
+  "seats": [],
+  "selectionScore": null,
+  "selectionScoreNote": "heuristic to pick one product answer (defs*10+bytes/100); NOT judge score",
+  "error": {
+    "kind": "hard_kill_timeout",
+    "message": "\nTIMEOUT after 360s",
+    "exitCode": 124,
+    "attempts": 1
+  },
+  "timing": {
+    "wallClockMs": 360006,
+    "startedAtUnixMs": 1790136239704,
+    "endedAtUnixMs": 1790136599710,
+    "hardKillTimeoutSec": 360
+  },
+  "scoreHint": null,
+  "timeout": true,
+  "productExit": 124
+}
