@@ -1,0 +1,9 @@
+{
+  "jobId": "cpp-001-D-run-20260923-R001",
+  "phase": "idle",
+  "detail": "background tick",
+  "beatCount": 51,
+  "unixMs": 1790133570129,
+  "wallClockMs": 240355,
+  "status": "ALIVE"
+}
